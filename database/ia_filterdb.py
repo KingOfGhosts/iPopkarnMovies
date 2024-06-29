@@ -9,8 +9,8 @@ from motor.motor_asyncio import AsyncIOMotorClient
 from marshmallow.exceptions import ValidationError
 from info import DATABASE_URI, DATABASE_NAME, COLLECTION_NAME, MAX_BTN
 
-client = AsyncIOMotorClient(DATABASE_URI)
-mydb = client[DATABASE_NAME]
+client = AsyncIOMotorClient(DATABASE_URI_2)
+mydb = client[DATABASE_NAME_2]
 instance = Instance.from_db(mydb)
 
 @instance.register
