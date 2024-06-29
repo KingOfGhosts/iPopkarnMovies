@@ -90,6 +90,8 @@ SETTINGS = {
             'template': IMDB_TEMPLATE,
             'caption': FILE_CAPTION,
             'tutorial': TUTORIAL,
+            'tutorial_2': TUTORIAL_2,
+            'tutorial_3': TUTORIAL_3,
             'shortner': SHORTENER_WEBSITE,
             'api': SHORTENER_API,
             'shortner_two': SHORTENER_WEBSITE2,
