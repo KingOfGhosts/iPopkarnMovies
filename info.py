@@ -21,7 +21,7 @@ API_ID = int(environ.get('API_ID', '12192489'))
 API_HASH = environ.get('API_HASH', 'ed39e721f5d4fd6d3c05121c1661b8ea')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5397984467').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5097048997').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/PirateGamers")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001867240136'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/iPopkarn_Movies')
