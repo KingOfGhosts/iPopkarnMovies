@@ -28,8 +28,8 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/iPopkarn_Movies
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001234567898').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Priyanshu:Priyanshu@cluster0.zlp9qrl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
-DATABASE_NAME = environ.get('DATABASE_NAME', "Bichu")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Bichu')
+DATABASE_NAME = environ.get('DATABASE_NAME', "Popcorn")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Popcorn')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002176441807'))
 QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/5d76a1d0cd42f5c20fc58.jpg')
 START_IMG = environ.get('START_IMG', 'https://graph.org/file/5d76a1d0cd42f5c20fc58.jpg')
