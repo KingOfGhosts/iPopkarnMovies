@@ -26,7 +26,7 @@ USERNAME = environ.get('USERNAME', "https://telegram.me/PirateGamers")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001867240136'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/iPopkarn_Movies')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001234567898').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://username:password@cluster0.jhvfd.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Priyanshu:Priyanshu@cluster0.zlp9qrl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "Bichu")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Bichu')
